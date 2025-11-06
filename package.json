@@ -1,0 +1,53 @@
+{
+  "name": "simplified-templates-files",
+  "displayName": "Simplified Templates Files",
+  "description": "Extension VSCode en JavaScript",
+  "version": "0.1.0",
+  "publisher": "_shantorian // artemis37",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeartemis37/simplified-templates-files.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "VSCode",
+    "extension",
+    "templates",
+    "files"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.AjouterTemplate"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.AjouterTemplate",
+        "title": "Select Template"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "extension.templates",
+        "label": "Templates"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "submenu": "extension.templates",
+          "group": "navigation"
+        }
+      ],
+      "extension.templates": [
+        {
+          "command": "extension.AjouterTemplate",
+          "group": "navigation"
+        }
+      ]
+    }
+  }
+}

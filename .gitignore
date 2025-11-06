@@ -1,0 +1,93 @@
+# Ignorer les fichiers spécifiques
+*.log
+*.tmp
+*.swp
+*~
+\#*
+.*.swp
+.*.swo
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers spécifiques
+/node_modules/
+/venv/
+/__pycache__/
+/.idea/
+/.vscode/
+/dist/
+/build/
+/target/
+
+# Ignorer les fichiers de secrets ou de configuration locale
+config.ini
+secrets.json
+*.env
+.env
+
+# Ignorer les fichiers temporaires créés par des outils
+*.pyc
+*.egg-info/
+*.orig
+*.rej
+
+# Ignorer les archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.rar
+*.7z
+
+# Ignorer les fichiers spécifiques au système d'exploitation
+.AppleDouble
+._*
+.localized
+
+# Ignorer les fichiers générés par des éditeurs de texte
+*.~
+*.bak
+
+# Ignorer les exécutables et objets compilés
+*.exe
+*.dll
+*.o
+*.obj
+*.so
+*.dylib
+*.class
+
+# Ignorer les fichiers de documentation générés
+/docs/_build/
+
+# Ignorer les fichiers de logs spécifiques à des outils
+npm-debug.log*
+yarn-error.log*
+
+# Ignorer les fichiers de coverage
+/coverage/
+.nyc_output
+
+# Ignorer les fichiers de lock spécifiques à des gestionnaires de paquets
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+# Ignorer les fichiers d'environnement virtuels Python
+.venv
+venv
+env
+
+# Ignorer les fichiers de cache Poetry
+.poetry
+
+# Ignorer les fichiers de configuration d'environnement local
+.direnv/
+
+# Ignorer les fichiers de configuration de Docker
+docker-compose.override.yml
+
+# Ignorer les fichiers de sauvegarde
+*.backup
+*.bak
