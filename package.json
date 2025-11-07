@@ -3,7 +3,7 @@
   "displayName": "Simplified Templates Files",
   "description": "Extension VSCode en JavaScript",
   "version": "0.1.0",
-  "publisher": "_shantorian // artemis37",
+  "publisher": "artemis37-shantorian",
   "repository": {
     "type": "git",
     "url": "https://github.com/codeartemis37/simplified-templates-files.git"
