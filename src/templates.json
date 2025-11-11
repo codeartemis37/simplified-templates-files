@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Template HTML",
+        "langs": ["html"],
+        "path": "HTML/template.html"
+    },
+    {
+        "name": "Template Batch",
+        "langs": ["bat"],
+        "path": "BAT/template.bat"
+    },
+    {
+        "name": "Template C",
+        "langs": ["c"],
+        "path": "C/template.c"
+    },
+    {
+        "name": "Template .H for C",
+        "langs": ["c"],
+        "path": "C/template.h"
+    },
+    {
+        "name": "Template Makefile for C",
+        "langs": ["makefile"],
+        "path": "C/makefile"
+    },
+    {
+        "name": "Template CPP",
+        "langs": ["cpp"],
+        "path": "CPP/template.cpp"
+    },
+    {
+        "name": "Template .HPP for CPP",
+        "langs": ["cpp"],
+        "path": "CPP/template.hpp"
+    },
+    {
+        "name": "Template Makefile for CPP",
+        "langs": ["makefile"],
+        "path": "CPP/makefile"
+    }
+]
