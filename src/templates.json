@@ -16,7 +16,7 @@
     },
     {
         "name": "Template .H for C",
-        "langs": ["c"],
+        "langs": ["objective-c"],
         "path": "C/template.h"
     },
     {
@@ -38,5 +38,25 @@
         "name": "Template Makefile for CPP",
         "langs": ["makefile"],
         "path": "CPP/makefile"
+    },
+    {
+        "name": "Template python basique",
+        "langs": ["python"],
+        "path": "Python/template.py"
+    },
+    {
+        "name": "Template Gitignore for C basique",
+        "langs": ["ignore"],
+        "path": "C/.gitignore"
+    },
+    {
+        "name": "Template Gitignore for CPP basique",
+        "langs": ["ignore"],
+        "path": "CPP/.gitignore"
+    },
+    {
+        "name": "Template Gitignore for Python basique",
+        "langs": ["ignore"],
+        "path": "Python/.gitignore"
     }
 ]

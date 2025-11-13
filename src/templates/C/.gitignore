@@ -1,0 +1,27 @@
+# Fichiers objets et binaires
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.exe
+
+# Dossiers de build
+build/
+bin/
+lib/
+
+# Logs et temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE et éditeurs
+.vscode/
+.idea/
+.DS_Store
+
+# Makefile artefacts
+*.d

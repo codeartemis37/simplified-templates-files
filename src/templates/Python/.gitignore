@@ -1,0 +1,45 @@
+# Environnements Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pdb
+.env/
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# Fichiers de tests et builds
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+htmlcov/
+.coverage*
+.cache/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Autres
+*.sqlite3
+*.db
+.ipynb_checkpoints/
